@@ -3,7 +3,7 @@ PrettyQR
 
 Generate QR codes that look prettier than the default, with round corners and colours. Optionally embed a logo (we use the highest QR error redundancy, 30% so provided the logo isn't too large, the QR code is parsed fine by most readers)
 
-uses [`pyqrencode`](https://github.com/Arachnid/pyqrencode) (and its dependencies) to generate the raw QR data.
+uses [`qrencode`](https://github.com/Arachnid/pyqrencode) (and its dependencies) to generate the raw QR data.
 
 outputs svg files for best quality
 
@@ -22,7 +22,7 @@ Note that there is a probability that this makes the QR code unusable. 30% redun
 
 Requirements
 ---
-[`qrencode`](https://github.com/Arachnid/pyqrencode)
-[`libqrencode`](http://fukuchi.org/works/qrencode/index.en.html)
-`PIL`
-`Python >= 2.6` (for now)
+[`qrencode`](https://github.com/Arachnid/pyqrencode)  
+[`libqrencode`](http://fukuchi.org/works/qrencode/index.en.html)  
+`PIL`  
+`Python >= 2.6` (for now)  
