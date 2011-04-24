@@ -7,6 +7,7 @@ DOWN = 1
 RIGHT = 2
 UP = 3
 
+
 class TestPointwise(unittest.TestCase):
 
     def test_add(self):
@@ -99,8 +100,5 @@ class TestBlobGrid(unittest.TestCase):
             self.drawing.count('colour'), 1)
 
 
-
 if __name__ == '__main__':
     unittest.main()
-
-

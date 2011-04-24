@@ -11,8 +11,6 @@ class BlobGrid(object):
     moves = [(-1, 0), (0, 1), (1, 0), (0, -1)]
     neighbours = [(-1, -1), (-1, 0), (0, 0), (0, -1)]
 
-
-
     def __init__(self, size):
         self.size = size
 
