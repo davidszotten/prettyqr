@@ -9,6 +9,7 @@ def svg_start(size, colour):
             .colour {fill: %(colour)s}
         ]]></style>
     </defs>
+    <rect x="0" y="0" width="%(width)s" height="%(height)s" class="reverse"/>
 ''' % {
         'width': size,
         'height': size,
